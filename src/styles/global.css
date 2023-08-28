@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: "RobotoReg";
+  font-weight: var(--FONT_WEIGHT_400);
+  color: var(--COLOR_TEXT_BLACK);
+}
+
+@font-face {
+  font-family: "RobotoReg";
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Medium.ttf);
+  font-display: swap;
+  font-style: normal;
+}
+
+:root {
+  --COLOR_BLACK: rgba(0, 0, 0, 1);
+  --COLOR_WHITE: rgba(255, 255, 255, 1);
+  --COLOR_GREY: rgba(102, 102, 102, 1);
+  --COLOR_RED: rgba(238, 68, 68, 1);
+  --COLOR_YELLOW: rgba(251, 191, 35, 1);
+  --COLOR_BLUE: rgba(60, 129, 246, 1);
+  --COLOR_LIGHT_BLUE: rgba(97, 165, 250, 1);
+  --COLOR_CARD_BORDER: rgba(231, 230, 235, 1);
+  --COLOR_YELLOW_HOVER: rgba(251, 190, 35, 0.605);
+
+  --COLOR_TEXT_BLACK: rgba(51, 51, 51, 1);
+  --COLOR_CARD_SHADOW: rgba(0, 0, 0, 0.08);
+  --COLOR_DROP_SHADOW: rgba(0, 0, 0, 0.25);
+
+  --FONT_SIZE_24: 24px;
+  --FONT_SIZE_32: 32px;
+
+  --FONT_WEIGHT_700: 400;
+  --FONT_WEIGHT_700: 500;
+  --FONT_WEIGHT_700: 700;
+
+  --TRANSITION_NORMAL: 0.2s;
+}
