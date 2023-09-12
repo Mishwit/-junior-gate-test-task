@@ -1,0 +1,9 @@
+.link {
+  color: var(--COLOR_LIGHT_BLUE);
+  text-decoration-line: underline;
+  transition: color var(--TRANSITION_NORMAL);
+
+  &:hover {
+    color: var(--COLOR_BLUE);
+  }
+}
